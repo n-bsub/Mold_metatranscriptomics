@@ -140,8 +140,8 @@ for (i in seq(1:3)) {
                     format(round(pcoa(d_list3[[i]])$values$Relative_eig[2],3)*100, nsmall=1),"%)")) +
     #xlim(-1.1, 1.1) +    #setting plot X axis limits for Fig S2
     #ylim(-0.7, 0.7) +    #setting plot Y axis limits for Fig S2
-    xlim(-0.6,0.82) +    # use this for limits for figure 2 in manuscript
-    ylim(-0.7,0.7) +  # use this for limits for figure 2 in manuscript
+    xlim(-0.6,0.82) +    # use this for limits for figure 3 in manuscript
+    ylim(-0.7,0.7) +  # use this for limits for figure 3 in manuscript
     theme(axis.text.y   = element_text(size=18, color = "black", family = "sans"),
           axis.text.x   = element_text(size=18, color = "black", family = "sans"),
           axis.title.y  = element_text(size=18, color = "black", family = "sans"),
@@ -268,8 +268,8 @@ for (i in seq(1:3)) {
                     format(round(pcoa(d_list3[[i]])$values$Relative_eig[2],3)*100, nsmall=1),"%)")) +
     #xlim(-1.1, 1.1) +    #setting plot X axis limits for Fig S2
     #ylim(-0.7, 0.7) +    #setting plot Y axis limits for Fig S2
-    xlim(-0.6,0.82) +    # use this for limits for figure 2 in manuscript
-    ylim(-0.7,0.7) +  # use this for limits for figure 2 in manuscript
+    xlim(-0.6,0.82) +    # use this for limits for figure 3 in manuscript
+    ylim(-0.7,0.7) +  # use this for limits for figure 3 in manuscript
     theme(axis.text.y   = element_text(size=18, color = "black", family = "sans"),
           axis.text.x   = element_text(size=18, color = "black", family = "sans"),
           axis.title.y  = element_text(size=18, color = "black", family = "sans"),
