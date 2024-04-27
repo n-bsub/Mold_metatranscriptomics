@@ -11,8 +11,8 @@
 # Created on: 24 February 2024
 # Last updated: 26 April 2024
 # Author: Neeraja Balasubrahmaniam and Jon C. King
-# Description: This script performs PCA and PCoA on gene expression and relative
-# abundance taxa (ASVs, species, genus) data using Bray-Curtis distances.
+# Description: This script performs PCA on gene expression and PCoA on relative
+# abundance of taxa (ASVs, species, genus) data using Bray-Curtis distances.
 
 # ---- Setup -------------------------------------------------------------------
 # Install necessary packages
