@@ -66,7 +66,7 @@ cities <- data.frame(
 )
 
 # ---- Plotting ----------------------------------------------------------------
-pdf(file = "Map_states_dust.pdf", width = 12, height = 8); #plots as a pdf
+pdf(file = "Map_dust_Routput.pdf", width = 12, height = 8); #plots as a pdf
 
 # Create a U.S. map with locations colored
 ggplot() +
