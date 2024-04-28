@@ -55,6 +55,8 @@ colnames(GO_all)=c("category","GO","GO_order", "RH", "RHgroup", "-log10FDR",
 # Or read .RDS file instead of above
 #GO_all <- readRDS("GO_All.rds")
 
+# All GO terms and corresponding DE genes are provided in Supplementary Table S9.
+
 #---- Plotting------------------------------------------------------------------
 
 p1 = ggplot(GO_all, aes(x=factor(RH, levels = c("100% vs 85%", 
