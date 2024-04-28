@@ -1,0 +1,6 @@
+Order	Type	Contig count
+1	Trinity contigs	1983474
+2	CD-HIT-EST clusters	942053
+3	SP annotation	494926
+4	GO mapping	483338
+5	KO annotation	402241
