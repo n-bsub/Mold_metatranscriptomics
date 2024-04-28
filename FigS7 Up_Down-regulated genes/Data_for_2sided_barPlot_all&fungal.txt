@@ -1,0 +1,13 @@
+RH	order	DE.genes	up_down	all_or_fungal
+100% vs 85%	1	18266	up	all
+100% vs 85%	1	5733	down	all
+100% vs 50%	2	6433	up	all
+100% vs 50%	2	12979	down	all
+85% vs 50%	3	21103	up	all
+85% vs 50%	3	3211	down	all
+100% vs 85%	1	10442	up	fungal annotated
+100% vs 85%	1	3285	down	fungal annotated
+100% vs 50%	2	4141	up	fungal annotated
+100% vs 50%	2	2330	down	fungal annotated
+85% vs 50%	3	12845	up	fungal annotated
+85% vs 50%	3	710	down	fungal annotated
