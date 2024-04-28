@@ -1,0 +1,15 @@
+gene	term.group	log2FC
+mdm10	Mitochondria	71.87014313
+nuo21.3c	Mitochondria	20.4274627
+bimG	Morphological	29.96134459
+tpiA	Stress response	167.7596269
+mdm10	Stress response	71.87014313
+crzA	Morphological	30.38697152
+fadA	Morphological	17.41958753
+ecm33	Morphological	53.97602772
+bipA	Stress response	23.19491425
+Canx homolog	Stress response	50.91050345
+bimG	Stress response	29.96134459
+camA	Morphological	53.18758751
+hex1	Morphological	9.087573722
+fadA	Secondary metabolism	17.41958753

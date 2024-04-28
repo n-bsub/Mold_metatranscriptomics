@@ -1,0 +1,36 @@
+GO_gene	gene	term.group	log2FC
+sidH_Stress response	sidH	Stress response	11.03336964
+ccg-8_Stress response	ccg-8	Stress response	11.01216944
+catB_Stress response	catB	Stress response	12.47946996
+sna41_Stress response	sna41	Stress response	8.014242544
+sidA_Stress response	sidA	Stress response	7.909639976
+sidC_Stress response	sidC	Stress response	8.431087657
+nudA_Morphological	nudA	Morphological	11.50075595
+rhoC_Morphological	rhoC	Morphological	9.562304747
+ro-3_Morphological	ro-3	Morphological	7.957469082
+chsA_Morphological	chsA	Morphological	9.160207124
+chsC_Morphological	chsC	Morphological	8.751405367
+hymA_Morphological	hymA	Morphological	9.831382198
+flbA_Morphological	flbA	Morphological	8.690700452
+nudG_Morphological	nudG	Morphological	11.03522421
+ppoA_Morphological	ppoA	Morphological	6.716554741
+laeA_Morphological	laeA	Morphological	11.65143219
+candA-N_Morphological	candA-N	Morphological	8.633317446
+fluG_Morphological	fluG	Morphological	10.76250511
+candA-C_Morphological	candA-C	Morphological	10.12688352
+abaA_Morphological	abaA	Morphological	6.89040709
+grrA_Morphological	grrA	Morphological	9.23353294
+gpaA_Morphological	gpaA	Morphological	10.18124326
+tcsA_Morphological	tcsA	Morphological	5.507843539
+dop1_Morphological	dop1	Morphological	11.59154534
+steA_Morphological	steA	Morphological	11.32632603
+cap2_Morphological	cap2	Morphological	8.920061626
+flbA_Secondary metabolism	flbA	Secondary metabolism	8.690700452
+ppoA_Secondary metabolism	ppoA	Secondary metabolism	6.716554741
+laeA_Secondary metabolism	laeA	Secondary metabolism	11.65143219
+fluG_Secondary metabolism	fluG	Secondary metabolism	10.76250511
+stcC_Secondary metabolism	stcC	Secondary metabolism	8.776881206
+gpaA_Secondary metabolism	gpaA	Secondary metabolism	10.18124326
+sidA_Secondary metabolism	sidA	Secondary metabolism	7.909639976
+sidC_Secondary metabolism	sidC	Secondary metabolism	8.431087657
+sidC_Secondary metabolism	sidC	Mitochondria	

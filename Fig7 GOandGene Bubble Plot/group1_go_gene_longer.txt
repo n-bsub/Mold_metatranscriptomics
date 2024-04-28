@@ -1,0 +1,41 @@
+gene	term.group	log2FC
+abr1	Morphological	9.29
+abr1	Secondary metabolism	9.29
+alp1	Morphological	25.69
+alp2	Morphological	7.15
+ALTA7	Stress response	7.74
+arp1	Morphological	12.34
+arp1	Secondary metabolism	12.34
+arp2	Stress response	11.9
+arp2	Secondary metabolism	11.9
+atfB	Secondary metabolism	11.46
+ayg1	Secondary metabolism	10.42
+brlA	Morphological	7.39
+catA	Morphological	9.3
+catA	Stress response	9.3
+ccg-6	Morphological	8.82
+gel1	Morphological	9.39
+gel2	Morphological	7.18
+gna-3	Morphological	9.04
+hsp30	Stress response	12.11
+katG	Stress response	8.97
+katG	Secondary metabolism	8.97
+mpg1	Morphological	5.37
+mtlD	Stress response	11.91
+mtlD	Secondary metabolism	11.91
+napA	Morphological	5.4
+napA	Stress response	5.4
+nrc-2	Morphological	8.54
+nuo-49	Mitochondria	5.12
+pkaR	Morphological	8.47
+rodA	Morphological	8.68
+sun1	Morphological	8.97
+tpsA	Morphological	11
+tpsA	Stress response	11
+velB	Morphological	8.33
+velB	Secondary metabolism	8.33
+vosA	Morphological	10.35
+vosA	Secondary metabolism	10.35
+wA	Morphological	12
+wA	Secondary metabolism	12
+wetA	Morphological	8.91
