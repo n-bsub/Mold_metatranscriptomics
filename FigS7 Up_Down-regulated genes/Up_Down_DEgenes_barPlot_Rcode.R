@@ -13,6 +13,7 @@
 # Author: Neeraja Balasubrahmaniam and Jon C. King
 # Description: This script plots a bar plot for genes that are upregulated and 
 # downregulated in each ERH pairwise comparison, including fungal annotated genes.
+# Inkscape was used to finalize the figure and add additional labels.
 
 # ---- Setup -------------------------------------------------------------------
 # Install necessary packages
