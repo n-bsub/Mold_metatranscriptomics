@@ -1,0 +1,68 @@
+category	term	term_order	RH	RHgroup	log10FDR	count
+BP	sporocarp development involved in sexual reproduction (GO:0000909)	1	100% vs 50%	Saturated	1.355682325	15
+BP	asexual reproduction (GO:0019954)	2	100% vs 50%	Saturated	1.435040583	54
+BP	sporulation resulting in formation of a cellular spore (GO:0030435)	3	100% vs 85%	Saturated	1.533304317	230
+BP	asexual sporulation (GO:0030436)	4	100% vs 50%	Saturated	1.582228593	47
+BP	conidium formation (GO:0048315)	5	100% vs 85%	Saturated	1.737770216	104
+BP	asexual sporulation (GO:0030436)	4	100% vs 85%	Saturated	1.831899713	122
+BP	spore germination (GO:0009847)	6	85% vs 50%	Elevated	2.511870076	32
+BP	asexual sporulation resulting in formation of a cellular spore (GO:0043936)	7	85% vs 50%	Elevated	3.26356914	27
+BP	sporulation (GO:0043934)	8	100% vs 50%	Saturated	3.29303128	114
+BP	sporulation resulting in formation of a cellular spore (GO:0030435)	3	100% vs 50%	Saturated	4.525267293	103
+BP	asexual spore wall assembly (GO:0042243)	9	100% vs 50%	Saturated	4.590847171	11
+BP	regulation of sporulation (GO:0043937)	10	85% vs 50%	Elevated	4.788861758	47
+BP	conidium formation (GO:0048315)	5	85% vs 50%	Elevated	7.218165903	102
+BP	sporocarp development involved in sexual reproduction (GO:0000909)	1	85% vs 50%	Elevated	7.228049627	48
+BP	regulation of conidium formation (GO:0075306)	11	85% vs 50%	Elevated	7.398312961	29
+BP	reproduction (GO:0000003)	12	85% vs 50%	Elevated	7.464346195	160
+BP	sporulation resulting in formation of a cellular spore (GO:0030435)	3	85% vs 50%	Elevated	7.53866561	201
+BP	regulation of asexual sporulation (GO:0034305)	13	85% vs 50%	Elevated	8.30926174	42
+BP	asexual reproduction (GO:0019954)	2	85% vs 50%	Elevated	9.295120958	146
+BP	reproductive fruiting body development (GO:0030582)	14	85% vs 50%	Elevated	9.662021583	57
+BP	asexual sporulation (GO:0030436)	4	85% vs 50%	Elevated	9.77244509	126
+BP	spore-bearing structure development (GO:0075259)	15	85% vs 50%	Elevated	11.1136069	63
+BP	sporulation (GO:0043934)	8	85% vs 50%	Elevated	12.459566	264
+BP	asexual sporulation resulting in formation of a cellular spore (GO:0043936)	7	85% vs 100%	Elevated		
+BP	asexual sporulation resulting in formation of a cellular spore (GO:0043936)	7	50% vs 100%	Low		
+BP	asexual sporulation resulting in formation of a cellular spore (GO:0043936)	7	50% vs 85%	Low		
+BP	cell differentiation (GO:0030154)	16	85% vs 50%	Elevated	1.899693587	302
+BP	anatomical structure formation involved in morphogenesis (GO:0048646)	17	100% vs 85%	Saturated	2.432023487	323
+BP	cell differentiation (GO:0030154)	16	100% vs 50%	Saturated	2.672993241	142
+BP	anatomical structure formation involved in morphogenesis (GO:0048646)	17	100% vs 50%	Saturated	3.306646375	137
+BP	filamentous growth (GO:0030447)	18	85% vs 50%	Elevated	5.854498486	153
+BP	hyphal growth (GO:0030448)	19	85% vs 50%	Elevated	7.722444918	62
+CC	hyphal tip (GO:0001411)	20	85% vs 50%	Elevated	11.13487964	33
+CC	cell septum (GO:0030428)	21	85% vs 50%	Elevated	14.8001123	152
+CC	fungal-type cell wall (GO:0009277)	22	100% vs 85%	Saturated	2.112006505	149
+CC	fungal-type cell wall (GO:0009277)	22	100% vs 50%	Saturated	1.855173365	62
+BP	trehalose biosynthetic process (GO:0005992)	23	100% vs 50%	Saturated	1.848057409	20
+BP	trehalose metabolism in response to stress (GO:0070413)	24	100% vs 50%	Saturated	1.337012736	14
+CC	Woronin body (GO:0140266)	25	85% vs 50%	Elevated	5.97072333	26
+BP	cellular response to farnesol (GO:0097308)	26	100% vs 85%	Saturated	1.810705571	37
+BP	cellular response to farnesol (GO:0097308)	26	100% vs 50%	Saturated	3.759091542	22
+BP	cellular response to farnesol (GO:0097308)	26	85% vs 50%	Elevated	3.672547157	36
+BP	cellular response to stress (GO:0033554)	27	100% vs 50%	Saturated	1.458713101	404
+BP	cellular response to stress (GO:0033554)	27	85% vs 50%	Elevated	20.59589718	1364
+BP	mitochondrial electron transport, cytochrome c to oxygen (GO:0006123)	28	100% vs 85%	Saturated	2.107757056	52
+BP	mitochondrial electron transport, cytochrome c to oxygen (GO:0006123)	28	100% vs 50%	Saturated	3.424830867	31
+CC	mitochondrial protein-containing complex (GO:0098798)	29	100% vs 85%	Saturated	4.710922997	385
+CC	mitochondrial protein-containing complex (GO:0098798)	29	100% vs 50%	Saturated	16.01741157	214
+CC	mitochondrial protein-containing complex (GO:0098798)	29	85% vs 50%	Elevated	6.078788893	494
+CC	mitochondrial protein-containing complex (GO:0098798)	29	85% vs 100%	Elevated	5.64311838	179
+BP	mitochondrial respiratory chain complex assembly (GO:0033108)	30	85% vs 50%	Elevated	2.071299254	109
+CC	mitochondrial respiratory chain complex IV (GO:0005751)	31	100% vs 50%	Saturated	3.408512218	28
+BP	mitochondrial transport (GO:0006839)	32	100% vs 50%	Saturated	1.444585101	94
+BP	mitochondrial transport (GO:0006839)	32	85% vs 50%	Elevated	3.000280137	283
+BP	mitochondrial transport (GO:0006839)	32	85% vs 100%	Elevated	3.374222033	105
+MF	oxidoreductase activity (GO:0016491)	33	100% vs 85%	Saturated	5.802753801	2056
+MF	oxidoreductase activity (GO:0016491)	33	100% vs 50%	Saturated	9.651678338	814
+MF	oxidoreductase activity (GO:0016491)	33	85% vs 50%	Elevated	1.423959032	2069
+MF	oxidoreductase activity (GO:0016491)	33	85% vs 100%	Elevated	1.421609902	627
+BP	mannitol metabolic process (GO:0019594)	34	100% vs 85%	Saturated	2.622386729	26
+BP	melanin biosynthetic process (GO:0042438)	35	100% vs 85%	Saturated	2.983447328	34
+BP	melanin biosynthetic process (GO:0042438)	35	100% vs 50%	Saturated	3.320601919	19
+BP	positive regulation of aflatoxin biosynthetic process (GO:1900179)	36	100% vs 50%	Saturated	1.877817898	7
+BP	siderophore metabolic process (GO:0009237)	37	85% vs 50%	Elevated	2.064579689	14
+BP	sterigmatocystin biosynthetic process (GO:0045461)	38	85% vs 50%	Elevated	3.312732616	24
+BP	siderophore metabolic process (GO:0009237)	37	50% vs 100%	Low		
+BP	siderophore metabolic process (GO:0009237)	37	50% vs 85%	Low		
