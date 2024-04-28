@@ -53,7 +53,7 @@ GO_all=read.table("Bubble_plot_All_GOs_USE.txt",header=T,row.names=NULL,sep="\t"
 colnames(GO_all)=c("category","GO","GO_order", "RH", "RHgroup", "-log10FDR", 
                    "Count") # set colnames
 # Or read .RDS file instead of above
-#GO_all <- readRDS("tblREL.rds")
+#GO_all <- readRDS("GO_All.rds")
 
 #---- Plotting------------------------------------------------------------------
 
