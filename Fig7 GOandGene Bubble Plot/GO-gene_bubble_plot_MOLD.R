@@ -43,8 +43,8 @@ packageVersion("ggplot2")
 # [1] ‘3.4.3’
 
 #---- Code to create bubble plots of log2FC data--------------------------------
-# log2FC and FDR-adjusted p values of all DE genes, their fungal annotations
-# are provided in a separate .txt file as well as in SI Table S10 
+# log2FC and FDR-adjusted p values of all DE genes (log2FC>=2, FDR-adjusted p <=0.001)
+# their fungal annotations are provided in a separate .txt file as well as in SI Table S10 
 
 #---- Set working directory to read data
 setwd("")
