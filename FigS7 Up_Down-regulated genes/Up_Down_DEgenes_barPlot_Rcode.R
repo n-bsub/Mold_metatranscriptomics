@@ -32,7 +32,7 @@ packageVersion("ggplot2")
 # Set working directory to read data
 setwd("")
 
-# Read data for number of DE genes
+# Read data for number of DE genes (Refer to SI Table S6)
 # All DE genes are reported in the tab separated file: All_DE_genes_log2fc_tmm_annots.txt 
 # present within the directory
 data=read.table(file="Data_for_2sided_barPlot_all&fungal.txt", header = TRUE, sep='	');
