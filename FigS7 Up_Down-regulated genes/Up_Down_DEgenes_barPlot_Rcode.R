@@ -10,7 +10,7 @@
 # Script name: Up_Down_DEgenes_barPlot_Rcode
 # Created on: 12 November 2023
 # Last updated: 28 April 2024
-# Author: Neeraja Balasubrahmaniam and Jon C. King
+# Author: Neeraja Balasubrahmaniam
 # Description: This script plots a bar plot for genes that are upregulated and 
 # downregulated in each ERH pairwise comparison, including fungal annotated genes.
 # Inkscape was used to finalize the figure and add additional labels.
