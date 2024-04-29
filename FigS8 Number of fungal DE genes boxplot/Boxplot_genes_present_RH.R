@@ -14,7 +14,7 @@
 # Description: This script plots boxplots for the number of genes with a fungal
 # annotation present across samples in each ERH condition (50%, 85% and 100%).
 # All genes present in each sample are provided separately along with 
-# fungal annotations and raw counts in 3 .xlsx files (50%, 85% and 100% RH)
+# fungal annotations and raw counts in 3 .xlsx files (50%, 85% and 100% RH).
 
 
 # ---- Setup -------------------------------------------------------------------
@@ -58,7 +58,7 @@ packageVersion("scales")
 # Set working directory to read data
 setwd("") # path of directory in ""
 
-# Read data for number of genes present in each sample
+# Read data for number of genes present in each sample (refer to SI Table S5)
 data=read.table(file="Fungal_gene_number_RH.txt", header = TRUE, sep='	');
 
 df=as.data.frame(data)
