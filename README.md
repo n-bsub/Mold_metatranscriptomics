@@ -1,1 +1,1 @@
-The data are licensed with a CC-BY-SA-4.0 license and the codes are licensed using an MIT license.
+The codes have an MIT license and all other files (all data and figures) have a CC-BY-SA-4.0 license.
