@@ -55,7 +55,7 @@ packageVersion("readxl")
 # on gene expression data --------------
 
 #---- Set working directory to read gene expression raw counts data
-setwd("c:/Users/neerj/OneDrive - The Ohio State University/CAREER project_osuonedrive/Writing/Draft_MOLD/Significance_testing_all")
+setwd("")
 
 # ---- Load gene expression data for PCA
 
