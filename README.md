@@ -1,6 +1,6 @@
 # Mold Metatranscriptomics
 
-Analysis code for: **Balasubrahmaniam N**, King JC, Hegarty B, et al. *Moving beyond species: Fungal function in house dust provides novel targets for potential indicators of mold growth in homes.* **Microbiome** 12, 182 (2024). [https://doi.org/10.1186/s40168-024-01915-9])
+Analysis code for: **Balasubrahmaniam N**, King JC, Hegarty B, et al. *Moving beyond species: Fungal function in house dust provides novel targets for potential indicators of mold growth in homes.* **Microbiome** 12, 182 (2024). https://doi.org/10.1186/s40168-024-01915-9
 
 ## Overview
 
