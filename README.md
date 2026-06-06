@@ -10,14 +10,29 @@ This repository contains the R scripts used to analyze metatranscriptomic and IT
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontFamily': 'Arial'}}}%%
-flowchart LR
-    A["<b>1. QC</b><br/>Trimmomatic"] --> B["<b>2. Assembly</b><br/>Trinity"]
-    B --> C["<b>3. Mapping</b><br/>Bowtie2"]
-    C --> D["<b>4. Transcript<br/>Quantification</b><br/>RSEM"]
-    D --> E["<b>5. Differential<br/>Expression</b><br/>DESeq2"]
-    E --> F["<b>6. Functional<br/>Annotation</b><br/>Trinotate, BLAST,<br/>GO, KEGG"]
-    F --> G["<b>7. Pathway<br/>Enrichment</b><br/>GOSeq"]
-    G --> H["<b>8. Target<br/>Discovery</b><br/>Statistical analysis"]
+flowchart TD
+    A["<b>1. Quality Assessment</b><br/>FastQC"] --> B["<b>2. Error Correction</b><br/>rCorrector"]
+    B --> C["<b>3. Read Filtering</b><br/>TranscriptomeAssemblyTools<br/>(remove unfixable reads)"]
+    C --> D["<b>4. Assembly + QC</b><br/>Trinity + Trimmomatic<br/>(de novo, min 300 bp)"]
+    D --> E["<b>5. Redundancy Clustering</b><br/>CD-HIT-EST<br/>(80% similarity)"]
+    E --> F["<b>6. Read Mapping</b><br/>Bowtie2 + Samtools<br/>(MAPQ > 2)"]
+    F --> G["<b>7. Transcript Quantification</b><br/>RSEM<br/>(CPM, TPM, TMM)"]
+    G --> H["<b>8. Differential Expression</b><br/>DESeq2<br/>(FDR ≤ 0.001, log2FC ≥ 2)"]
+
+    E --> I["<b>9. ORF Prediction</b><br/>TransDecoder"]
+    I --> J["<b>10. Functional Annotation</b><br/>Trinotate"]
+    J --> K["BLASTX / BLASTP<br/>SwissProt"]
+    J --> L["HMMER<br/>PFAM domains"]
+    J --> M["GO + KEGG<br/>assignments"]
+
+    K --> N["<b>11. Kingdom Filtering</b><br/>Retain fungal annotations"]
+
+    H --> O["<b>12. GO Enrichment</b><br/>GOSeq<br/>(FDR < 0.05)"]
+    N --> O
+    M --> O
+
+    O --> P["<b>13. Pathway Visualization</b><br/>KEGG Mapper, iPath3"]
+    O --> Q["<b>14. Target Gene<br/>Identification</b><br/>Statistical analysis"]
 
     style A fill:#fdf6e3,stroke:#333,color:#000
     style B fill:#fdf6e3,stroke:#333,color:#000
@@ -27,6 +42,15 @@ flowchart LR
     style F fill:#fdf6e3,stroke:#333,color:#000
     style G fill:#fdf6e3,stroke:#333,color:#000
     style H fill:#fdf6e3,stroke:#333,color:#000
+    style I fill:#fdf6e3,stroke:#333,color:#000
+    style J fill:#fdf6e3,stroke:#333,color:#000
+    style K fill:#fdf6e3,stroke:#333,color:#000
+    style L fill:#fdf6e3,stroke:#333,color:#000
+    style M fill:#fdf6e3,stroke:#333,color:#000
+    style N fill:#fdf6e3,stroke:#333,color:#000
+    style O fill:#fdf6e3,stroke:#333,color:#000
+    style P fill:#fdf6e3,stroke:#333,color:#000
+    style Q fill:#fdf6e3,stroke:#333,color:#000
 ```
 
 ### Analysis
