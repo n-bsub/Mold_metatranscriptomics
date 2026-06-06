@@ -10,29 +10,30 @@ This repository contains the R scripts used to analyze metatranscriptomic and IT
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontFamily': 'Arial'}}}%%
-flowchart TD
-    A["<b>1. Quality Assessment</b><br/>FastQC"] --> B["<b>2. Error Correction</b><br/>rCorrector"]
-    B --> C["<b>3. Read Filtering</b><br/>TranscriptomeAssemblyTools<br/>(remove unfixable reads)"]
-    C --> D["<b>4. Assembly + QC</b><br/>Trinity + Trimmomatic<br/>(de novo, min 300 bp)"]
-    D --> E["<b>5. Redundancy Clustering</b><br/>CD-HIT-EST<br/>(80% similarity)"]
-    E --> F["<b>6. Read Mapping</b><br/>Bowtie2 + Samtools<br/>(MAPQ > 2)"]
-    F --> G["<b>7. Transcript Quantification</b><br/>RSEM<br/>(CPM, TPM, TMM)"]
-    G --> H["<b>8. Differential Expression</b><br/>DESeq2<br/>(FDR ≤ 0.001, log2FC ≥ 2)"]
+flowchart LR
+    A["<b>1. Quality<br/>Assessment</b><br/>FastQC"] --> B["<b>2. Error<br/>Correction</b><br/>rCorrector"]
+    B --> C["<b>3. Read<br/>Filtering</b><br/>TranscriptomeAssemblyTools"]
+    C --> D["<b>4. Assembly + QC</b><br/>Trinity + Trimmomatic<br/>(min 300 bp)"]
+    D --> E["<b>5. Redundancy<br/>Clustering</b><br/>CD-HIT-EST<br/>(80% similarity)"]
 
+    E --> F["<b>6. Read Mapping</b><br/>Bowtie2 + Samtools<br/>(MAPQ > 2)"]
     E --> I["<b>9. ORF Prediction</b><br/>TransDecoder"]
-    I --> J["<b>10. Functional Annotation</b><br/>Trinotate"]
+
+    F --> G["<b>7. Transcript<br/>Quantification</b><br/>RSEM<br/>(CPM, TPM, TMM)"]
+    G --> H["<b>8. Differential<br/>Expression</b><br/>DESeq2<br/>(FDR ≤ 0.001, log2FC ≥ 2)"]
+
+    I --> J["<b>10. Functional<br/>Annotation</b><br/>Trinotate"]
     J --> K["BLASTX / BLASTP<br/>SwissProt"]
     J --> L["HMMER<br/>PFAM domains"]
     J --> M["GO + KEGG<br/>assignments"]
 
-    K --> N["<b>11. Kingdom Filtering</b><br/>Retain fungal annotations"]
-
-    H --> O["<b>12. GO Enrichment</b><br/>GOSeq<br/>(FDR < 0.05)"]
-    N --> O
+    H --> O["<b>11. GO Enrichment</b><br/>GOSeq<br/>(FDR < 0.05)"]
+    K --> O
     M --> O
 
-    O --> P["<b>13. Pathway Visualization</b><br/>KEGG Mapper, iPath3"]
-    O --> Q["<b>14. Target Gene<br/>Identification</b><br/>Statistical analysis"]
+    O --> N["<b>12. Kingdom<br/>Filtering</b><br/>Retain fungal<br/>annotations"]
+    N --> P["<b>13. Pathway<br/>Visualization</b><br/>KEGG Mapper, iPath3"]
+    N --> Q["<b>14. Target Gene<br/>Identification</b><br/>Statistical analysis"]
 
     style A fill:#fdf6e3,stroke:#333,color:#000
     style B fill:#fdf6e3,stroke:#333,color:#000
