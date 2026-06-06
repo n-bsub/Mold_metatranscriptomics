@@ -10,7 +10,7 @@ This repository contains the R scripts used to analyze metatranscriptomic and IT
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontFamily': 'Arial'}}}%%
-flowchart TD
+flowchart LR
     A["<b>1. Quality Assessment</b><br/>FastQC"] --> B["<b>2. Error Correction</b><br/>rCorrector"]
     B --> C["<b>3. Read Filtering</b><br/>TranscriptomeAssemblyTools<br/>(remove unfixable reads)"]
     C --> D["<b>4. Assembly + QC</b><br/>Trinity + Trimmomatic<br/>(de novo, min 300 bp)"]
