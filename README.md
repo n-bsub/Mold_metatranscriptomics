@@ -19,14 +19,14 @@ flowchart LR
     F --> G["<b>7. Pathway<br/>Enrichment</b><br/>GOSeq"]
     G --> H["<b>8. Target<br/>Discovery</b><br/>Statistical analysis"]
 
-    style A fill:#f0f0f0,stroke:#333,color:#000
-    style B fill:#f0f0f0,stroke:#333,color:#000
-    style C fill:#f0f0f0,stroke:#333,color:#000
-    style D fill:#f0f0f0,stroke:#333,color:#000
-    style E fill:#f0f0f0,stroke:#333,color:#000
-    style F fill:#f0f0f0,stroke:#333,color:#000
-    style G fill:#f0f0f0,stroke:#333,color:#000
-    style H fill:#f0f0f0,stroke:#333,color:#000
+    style A fill:#fdf6e3,stroke:#333,color:#000
+    style B fill:#fdf6e3,stroke:#333,color:#000
+    style C fill:#fdf6e3,stroke:#333,color:#000
+    style D fill:#fdf6e3,stroke:#333,color:#000
+    style E fill:#fdf6e3,stroke:#333,color:#000
+    style F fill:#fdf6e3,stroke:#333,color:#000
+    style G fill:#fdf6e3,stroke:#333,color:#000
+    style H fill:#fdf6e3,stroke:#333,color:#000
 ```
 
 ### Analysis
