@@ -4,7 +4,30 @@ Analysis code for: **Balasubrahmaniam N**, King JC, Hegarty B, et al. *Moving be
 
 ## Overview
 
-This repository contains the R scripts used to analyze metatranscriptomic and ITS amplicon sequencing data from house dust samples incubated at three equilibrium relative humidity (ERH) levels (50%, 85%, 100%). The goal of this is to move beyond taxonomic compositions to characterize fungal gene expression as a function-based approach for identifying indicators of mold growth in indoor environments.
+This repository contains the R scripts used to analyze metatranscriptomic and ITS amplicon sequencing data from house dust samples incubated at three equilibrium relative humidity (ERH) levels (50%, 85%, 100%). The goal of this is to move beyond taxonomic compositions to characterize fungal gene expression as a function-based approach for identifying indicators of mold growth in indoor environments. 
+
+## Metatranscriptomic pipeline
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'fontFamily': 'Arial'}}}%%
+flowchart LR
+    A["<b>1. QC</b><br/>Trimmomatic"] --> B["<b>2. Assembly</b><br/>Trinity"]
+    B --> C["<b>3. Mapping</b><br/>Bowtie2"]
+    C --> D["<b>4. Transcript<br/>Quantification</b><br/>RSEM"]
+    D --> E["<b>5. Differential<br/>Expression</b><br/>DESeq2"]
+    E --> F["<b>6. Functional<br/>Annotation</b><br/>Trinotate, BLAST,<br/>GO, KEGG"]
+    F --> G["<b>7. Pathway<br/>Enrichment</b><br/>GOSeq"]
+    G --> H["<b>8. Target<br/>Discovery</b><br/>Statistical analysis"]
+
+    style A fill:#f0f0f0,stroke:#333,color:#000
+    style B fill:#f0f0f0,stroke:#333,color:#000
+    style C fill:#f0f0f0,stroke:#333,color:#000
+    style D fill:#f0f0f0,stroke:#333,color:#000
+    style E fill:#f0f0f0,stroke:#333,color:#000
+    style F fill:#f0f0f0,stroke:#333,color:#000
+    style G fill:#f0f0f0,stroke:#333,color:#000
+    style H fill:#f0f0f0,stroke:#333,color:#000
+```
 
 ### Analysis
 
